@@ -566,7 +566,7 @@ body {
     }
 
     .content__title {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .logo__first {
@@ -586,9 +586,9 @@ body {
 }
 
 @media (max-width: 400px) {
-
     .content__title {
-        font-size: 24px;
+        font-size: 14px;
+        font-weight: 600;
     }
 
     .middle-header__phone {
@@ -597,8 +597,7 @@ body {
 
     .content__item {
         display: inline-flex;
-        flex: 0 0 100%;
-        align-items: center;
+        flex: 0 0 48%;
     }
 
     .middle-header__phone {
@@ -610,7 +609,12 @@ body {
     }
 }
 
-
+@media (max-width: 350px) {
+    .content__item {
+        display: inline-flex;
+        flex: 0 0 100%;
+    }
+}
 
 /* ------------------------------------------------- media */
 /* 

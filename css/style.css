@@ -160,15 +160,26 @@ body {
     transition: color 0.3s;
 }
 
-.phone__number::before {
+.phone__number:nth-child(1)::before {
     content: "";
     position: absolute;
     width: 25px;
     height: 25px;
     top: 0;
     left: 0;
-    background: url("../img/ky.png") 0 / 100% no-repeat;
-    background-color: #c4c4c4;
+    background: url("../img/kyivstar.svg") 0 0 / 100% no-repeat;
+    /* background-color: #c4c4c4; */
+}
+
+.phone__number:nth-child(2):before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: url("../img/vodafone.svg") 0 / 100% no-repeat;
+    /* background-color: #c4c4c4; */
 }
 
 .phone__number:hover {
@@ -203,7 +214,7 @@ body {
     height: 60px;
     top: 0;
     left: 0;
-    background: url("../img/unnamed.webp") 0/ 100% no-repeat;
+    background: url("../img/Untitled-1.webp") 0/ 100% no-repeat;
     /* background-color: #C4C4C4; */
 }
 
@@ -549,6 +560,10 @@ body {
         column-gap: 30px;
     }
 
+    .cart__link {
+        padding-left: 60px;
+    }
+
     .middle-header__cart {
         align-items: flex-end;
         flex: 0 0 10%;
@@ -591,8 +606,14 @@ body {
         font-weight: 600;
     }
 
+    .middle-header__logo {
+        align-items: center;
+        justify-content: center;
+    }
+
     .middle-header__phone {
         flex-direction: column;
+        flex: 0 0 auto;
     }
 
     .content__item {

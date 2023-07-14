@@ -383,12 +383,12 @@ body {
 .content__images {
     overflow: hidden;
     /* object-fit: cover; */
-    max-width: 226px;
+    /* max-width: 226px; */
     /* width: 100%; */
 }
 
 .content__img {
-    width: 100%;
+    max-width: 100%;
     /* max-width: 226px; */
     /* width: 206px;
     height: 167px; */

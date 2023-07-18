@@ -378,7 +378,7 @@ body {
     justify-content: flex-start;
     font-size: 0; */
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 0.87%;
 }
 
 .content__item {
@@ -500,6 +500,10 @@ body {
         font-size: 18px;
     }
 
+    .content__list {
+        column-gap: 1.46%;
+        row-gap: 14px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -572,6 +576,16 @@ body {
     .middle-header__cart div {
         order: 1;
     }
+
+    .page__content {
+        display: flex;
+        padding: 14px 0;
+    }
+
+    .content__list {
+        column-gap: 2.3%;
+        row-gap: 14px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -597,6 +611,11 @@ body {
     .middle-header__content {
         display: flex;
         min-height: 60px;
+    }
+
+    .content__list {
+        column-gap: 4%;
+        row-gap: 14px;
     }
 }
 

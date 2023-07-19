@@ -378,7 +378,8 @@ body {
     justify-content: flex-start;
     font-size: 0; */
     flex-wrap: wrap;
-    gap: 0.87%;
+    column-gap: 0.87%;
+    row-gap: 10px;
 }
 
 .content__item {

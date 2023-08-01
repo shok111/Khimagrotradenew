@@ -222,10 +222,17 @@
     }
 }
 
-@media (max-width: 440px) {
-    .info-content__list {
-        /* grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); */
-        /* gap: calc(5px + (12 - 5) * ((100vw - 400px) / (767 - 400))); */
+@media (max-width: 388px) {
+    .info-content__item {
+        flex-direction: column;
+    }
+
+    .info-content__images {
+        flex: 0 0 200px;
+    }
+
+    .info-content__block {
+        flex: none;
     }
 }
 
